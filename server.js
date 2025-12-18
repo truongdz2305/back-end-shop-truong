@@ -4,7 +4,7 @@ import express from "express";
 import fileUpload from "express-fileupload";
 import path from "path";
 import { fileURLToPath } from "url";
-import connectDatabase from "./config/MongoDB.js";
+import connectDatabase from "./config/MongoDb.js";
 import ImportData from "./DataImport.js";
 import { errorHandler, notFound } from "./Middleware/Errors.js";
 import categoryRouter from "./Routes/CategoryRoutes.js";
